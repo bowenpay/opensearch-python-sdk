@@ -2,3 +2,4 @@
 *.so
 dist
 build
+.idea

@@ -5,12 +5,12 @@ from setuptools import setup
 
 setup(
     name='opensearch-python-sdk',
-    version='0.0.1',
+    version='0.0.3',
     description='Python unofficial sdk of aliyun open search',
     author='Kaiyuan Li, Jingping Yi',
     author_email='me@defool.me, jingping.yi@gmail.com',
     py_modules=['opensearch', ],
-    url='https://github.com/defool/AliyunOpenSearch',
+    url='https://github.com/bowenpay/opensearch-python-sdk',
     license="MIT",
     long_description=open('README.md').read(),
     install_requires=[
