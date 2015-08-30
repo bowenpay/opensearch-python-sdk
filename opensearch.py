@@ -28,9 +28,9 @@ class SearchClient(object):
     qps_offset = 0
     last_query_time = 0
 
-    def __init__(self, key, secret):
+    def __init__(self, key, secret, base_url="http://opensearch-cn-beijing.aliyuncs.com"):
         version = 'v2'
-        self.base_url = 'http://opensearch.aliyuncs.com'
+        self.base_url = base_url
         self.sign_params = {
             'Version': version,
             'AccessKeyId': key,

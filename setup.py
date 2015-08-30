@@ -4,11 +4,11 @@
 from setuptools import setup
 
 setup(
-    name='opensearch',
+    name='opensearch-python-sdk',
     version='0.0.1',
     description='Python unofficial sdk of aliyun open search',
-    author='Kaiyuan Li',
-    author_email='me@defool.me',
+    author='Kaiyuan Li, Jingping Yi',
+    author_email='me@defool.me, jingping.yi@gmail.com',
     py_modules=['opensearch', ],
     url='https://github.com/defool/AliyunOpenSearch',
     license="MIT",
